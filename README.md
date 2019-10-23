@@ -26,6 +26,7 @@ Wir sammeln Datenquellen, wo bahnrelevante Daten zu finden sind. Wir freuen uns 
   - https://github.com/derhuerst/db-hafas
   - https://github.com/public-transport/hafas-client
   - EVA-IDs und Location von Stationen: https://si.favendo.de/station-info/rest/api/search?searchTerm=Berlin%20Hbf
+  - https://github.com/trainline-eu/stations
 - Fotos von Bahnhöfen:
   - https://developer.deutschebahn.com/store/apis/info?name=Bahnhofsfotos&version=v1&provider=DBOpenData
 - Parkplätze an Bahnhöfen: https://developer.deutschebahn.com/store/apis/info?name=BahnPark&version=v1&provider=DBOpenData
