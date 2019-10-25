@@ -1,6 +1,7 @@
 # Bahn-API
 
 Wir sammeln Datenquellen, wo bahnrelevante Daten zu finden sind. Wir freuen uns über Beiträge und Anregungen, um diese Liste so vollständig wie möglich zu machen.
+Bitte bei der Nutzung der Links unbedingt darauf achten, unter welcher Lizenz diese stehen und ggf. bei den Initiatoren nachfragen.
 
  
 - Informationen über Bahnhöfe mit Lageplänen in PDF http://www.bahnhof.de/
