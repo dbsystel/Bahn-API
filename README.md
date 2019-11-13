@@ -39,3 +39,6 @@ Bitte bei der Nutzung der Links unbedingt darauf achten, unter welcher Lizenz di
 - Fahrstühle und Rolltreppen: https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData
 - Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
 - Verspätungsdaten DB Cargo: https://developer.deutschebahn.com/store/apis/info?name=Cargo-Delay-Statistics&version=v1&provider=DBOpenData
+- Umwelt/Emissionen:
+  - https://triptocarbon.xyz/
+  - http://www.ecopassenger.org/bin/query.exe/en?L=vs_uic (aktuell keine API)
