@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: passenger-info
+  version: '1.0'
+  description: This API gives information about load on trains and possible disturbances around operation.
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /routes:
+    get:
+      summary: calculateRoutes
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+      description: Calculate routes based on start and end point
+      parameters:
+        - name: locations
+          in: query
+          description: ''
+          schema:
+            type: array
+            items:
+              $ref: models/location.v1.yaml
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: models/vehicle.v1.yaml
+        description: ''
+      operationId: ''
+      

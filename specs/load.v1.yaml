@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: vehicle load
+  version: '1.0'
+  description: Get load of a specified vehicle on a date and time and between two waypoints
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /:
+    get:
+      summary: get load
+      tags: []
+      responses: {}
+      parameters:
+        - name: vehicle
+          in: query
+          description: ''
+          schema:
+            type: array
+            items:
+              $ref: models/vehicle.v1.yaml
