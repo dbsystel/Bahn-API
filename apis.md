@@ -12,10 +12,10 @@ Grundlage für die Frage, wie ich von A nach B komme, ist die Routenberechnung.
 
 Für jeden Teilabschnitt einer Route können Störungen abgefragt werden
 
-[OAS3](specs/faults.v1.yaml)
+[OAS3](specs/malfunctions.v1.yaml)
 
 ## Auslastungen
 
 Um die Auslastung eines Verkehrsmittels auf einem Teilabschnitt der Route zu ermitteln, hilft dieses API.
 
-[OAS3](specs/load.v1.yaml)
+[OAS3](specs/utilization.v1.yaml)

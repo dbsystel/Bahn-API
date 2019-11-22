@@ -11,8 +11,8 @@ paths:
   /routes:
     $ref: "passenger-info.v1.yaml#/paths/~1routes"
   /utilization/{trainNum}:
-    $ref: "capacity.yml#/paths/~1capacity~1{trainNum}"
+    $ref: "utilization.yml#/paths/~1utilization~1{trainNum}"
   /utilization/{routeId}:
-    $ref: "capacity.yml#/paths/~1capacity~1{routeId}"
+    $ref: "utilization.yml#/paths/~1utilization~1{routeId}"
   /malfunctions:
     $ref: "malfunctions.yaml#/paths/~/malfunctions"
