@@ -5,7 +5,7 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /v1/:
+  /malfunctions:
     get:
       summary: get malfunctions on route
       tags: []
