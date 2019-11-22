@@ -27,13 +27,4 @@ paths:
             type: array
             items:
               $ref: models/location.v1.yaml
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                $ref: models/vehicle.v1.yaml
-        description: ''
-      operationId: ''
-      
+     
