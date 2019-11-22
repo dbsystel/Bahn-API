@@ -1,17 +1,23 @@
-title: location
+title: Vehicle information
 type: object
 properties:
   typeOfVehicle:
-    type: integer
+    enum:
+      - train
+      - plane
+      - car
+      - bike
+      - bus
   vehicleIdentifier:
     type: string
-  dateFirstDepature:
-    type: string
+    description: Identification of vehicle
+    example: 
+      ICE1650
   stops:
     type: array
     items:
       $ref: ./stops.v1.yaml
 required:
   - typeOfVehicle
-  - vehicleIdentifier
   - dateFirstDepature
+  
