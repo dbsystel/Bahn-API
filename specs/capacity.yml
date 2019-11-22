@@ -1,15 +1,15 @@
 openapi: 3.0.0
 info:
-  title: Capacity
-  description: Capacity of Trains on a given route
+  title: Utilization
+  description: Utilization of trains on a given route
   version: '1.0'
 
 paths:
-  /capacity/{trainNum}:
+  /utilization/{trainNum}:
     get:
-      summary: Returns capacity for given train number
+      summary: Returns utilization for given train number
       tags:
-       - 'Capacity'
+       - 'Utilization'
       parameters:
         - name: trainNum
           in: path
@@ -19,20 +19,20 @@ paths:
             type : string
       responses:
         '200':
-          description: Capacity for given train
+          description: Utilization for given train
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/capacity'
+                $ref: '#/components/schemas/utilization'
                 
         '404':
-          description: Capacity not found
+          description: Utilization not found
 
-  /capacity/{routeId}:
+  /utilization/{routeId}:
     get:
-      summary: Returns capacity for given route id
+      summary: Returns utilization for given route id
       tags:
-       - 'Capacity'
+       - 'Utilization'
       parameters:
         - name: routeId
           in: path
@@ -42,27 +42,27 @@ paths:
             type : integer
       responses:
         '200':
-          description: Capacity for given route
+          description: Utilization for given route
           content:
             application/json:
               schema:
                 type: array
                 items: 
-                  $ref: '#/components/schemas/capacity'
+                  $ref: '#/components/schemas/utilization'
         '404':
-          description: Capacity not found
+          description: Utilization not found
 
 components:
   schemas:
-    capacity:
+    utilization:
       type: object
       properties:
         train:
           type: string
           description: Train Number
           example: 'ICE372'
-        capa:
+        utilization:
           type: integer
-          description: Capacity
+          description: Utilization
           example: 1
         
