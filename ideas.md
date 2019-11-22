@@ -2,7 +2,9 @@
 
 Wir beginnen mit der Sicht von Menschen, die von einem Punkt A an einen anderen Ort B kommen wollen. Es muss eine Route berechnet werden, auf der z.B. Störungen auftreten, was die Routenberechnung beeinflussen könnte.
 
-Relevant ist auch die Auslastung der Verkehrsmittel, die bewirken kann, dass ich z.B. einzelne Verbindungen nicht nutzen kann oder möchte
+Relevant ist auch die Auslastung der Verkehrsmittel, die bewirken kann, dass ich z.B. einzelne Verbindungen nicht nutzen kann oder möchte.
+
+Für viele ist heute auch wichtig, wie der CO₂ Ausstoß auf dem Weg ist.
 
 ## Was sind Orte?
 
