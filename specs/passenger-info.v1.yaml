@@ -36,17 +36,4 @@ paths:
                 $ref: models/vehicle.v1.yaml
         description: ''
       operationId: ''
-components:
-  schemas:
-    location:
-      type: object
-      properties:
-        lat:
-          type: number
-        long:
-          type: number
-        hint:
-          type: string
-      required:
-        - lat
-        - long
+      
