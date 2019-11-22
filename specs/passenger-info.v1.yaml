@@ -9,7 +9,8 @@ paths:
   /routes:
     get:
       summary: calculateRoutes
-      tags: []
+      tags:
+       - 'routes'
       responses:
         '200':
           description: OK
@@ -27,13 +28,3 @@ paths:
             type: array
             items:
               $ref: models/location.v1.yaml
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                $ref: models/vehicle.v1.yaml
-        description: ''
-      operationId: ''
-      
