@@ -1,0 +1,67 @@
+openapi: 3.0.0
+info:
+  title: Capacity
+  description: Capacity of Trains on a given route
+  version: '1.0'
+
+servers:
+  - url: http://localhost/api/v1
+
+paths:
+  /capacity/{trainNum}:
+    get:
+      summary: Returns capacity for given train number
+      parameters:
+        - name: trainNum
+          in: path
+          required: true
+          description: Train number
+          schema:
+            type : string
+      responses:
+        '200':
+          description: Capacity for given train
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/capacity'
+                
+        '404':
+          description: Capacity not found
+
+  /capacity/{routeId}:
+    get:
+      summary: Returns capacity for given route id
+      parameters:
+        - name: routeId
+          in: path
+          required: true
+          description: Route ID
+          schema:
+            type : integer
+      responses:
+        '200':
+          description: Capacity for given route
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/capacity'
+        '404':
+          description: Capacity not found
+
+components:
+  schemas:
+    capacity:
+      type: object
+      properties:
+        train:
+          type: string
+          description: Train Number
+          example: 'ICE372'
+        capa:
+          type: integer
+          description: Capacity
+          example: 1
+        
