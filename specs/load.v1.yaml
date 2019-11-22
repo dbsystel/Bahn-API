@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: load
+  title: vehicle load
   version: '1.0'
   description: Get load of a specified vehicle on a date and time and between two waypoints
 servers:
