@@ -1,0 +1,13 @@
+title: location
+type: object
+properties:
+  lat:
+    type: number
+  long:
+    type: number
+  hint:
+    type: string
+required:
+  - lat
+  - long
+  

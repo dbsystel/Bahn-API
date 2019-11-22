@@ -1,0 +1,17 @@
+title: location
+type: object
+properties:
+  typeOfVehicle:
+    type: integer
+  vehicleIdentifier:
+    type: string
+  dateFirstDepature:
+    type: string
+  stops:
+    type: array
+    items:
+      $ref: ./stops.v1.yaml
+required:
+  - typeOfVehicle
+  - vehicleIdentifier
+  - dateFirstDepature

@@ -1,0 +1,14 @@
+title: stops
+type: object
+properties:
+  name:
+    type: string
+  dateOfDepature:
+    type: number
+  timeOfDepature:
+    type: number
+  dateOfArrival:
+    type: number
+  timeOfArrival:
+    type: number
+ 
