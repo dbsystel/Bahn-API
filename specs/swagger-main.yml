@@ -5,12 +5,14 @@ info:
   version: '1.0'
 
 servers:
-  - url: http://localhost/api/v1
+  - url: http://localhost/v1
 
 paths:
-  /capacity/{trainNum}:
-    $ref: "capacity.yml#/paths/~1capacity~1{trainNum}"
-  /capacity/{routeId}:
-    $ref: "capacity.yml#/paths/~1capacity~1{routeId}"
   /routes:
     $ref: "passenger-info.v1.yaml#/paths/~1routes"
+  /utilization/{trainNum}:
+    $ref: "capacity.yml#/paths/~1capacity~1{trainNum}"
+  /utilization/{routeId}:
+    $ref: "capacity.yml#/paths/~1capacity~1{routeId}"
+  /malfunctions:
+    $ref: "malfunctions.yaml#/paths/~/malfunctions"
