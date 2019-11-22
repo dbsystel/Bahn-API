@@ -4,13 +4,12 @@ info:
   description: Capacity of Trains on a given route
   version: '1.0'
 
-servers:
-  - url: http://localhost/api/v1
-
 paths:
   /capacity/{trainNum}:
     get:
       summary: Returns capacity for given train number
+      tags:
+       - 'Capacity'
       parameters:
         - name: trainNum
           in: path
@@ -32,6 +31,8 @@ paths:
   /capacity/{routeId}:
     get:
       summary: Returns capacity for given route id
+      tags:
+       - 'Capacity'
       parameters:
         - name: routeId
           in: path

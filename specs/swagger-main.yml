@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Bahn API
+  description: Bahn API
+  version: '1.0'
+
+servers:
+  - url: http://localhost/api/v1
+
+paths:
+  /capacity/{trainNum}:
+    $ref: "capacity.yml#/paths/~1capacity~1{trainNum}"
+  /capacity/{routeId}:
+    $ref: "capacity.yml#/paths/~1capacity~1{routeId}"
+  /routes:
+    $ref: "passenger-info.v1.yaml#/paths/~1routes"
