@@ -18,4 +18,4 @@ Für jeden Teilabschnitt einer Route können Störungen abgefragt werden
 
 Um die Auslastung eines Verkehrsmittels auf einem Teilabschnitt der Route zu ermitteln, hilft dieses API.
 
-[OAS3](specs/utilizations.v1.yaml)
+[OAS3](specs/utilization.v1.yaml)
