@@ -1,0 +1,7 @@
+title: messages
+type: object
+properties:
+  timestamp:
+    type: integer
+  '':
+    type: string

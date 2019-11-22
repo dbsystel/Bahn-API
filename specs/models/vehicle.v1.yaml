@@ -17,6 +17,10 @@ properties:
     type: array
     items:
       $ref: ./stops.v1.yaml
+  messages:
+    type: array
+    items:
+      $ref: ./messages.v1.yaml
 required:
   - typeOfVehicle
   - dateFirstDepature
