@@ -25,3 +25,5 @@ Eine Route ist eine Liste von Orten, an denen z.B. das Verkehrsmittel gewechselt
 - Ausfall des Verkehrsmittels
 - Ersatzverkehr
 - Ausfall Klimaanlage / Bordrestaurant / ...
+- Türstörung
+- Zug fährt mit weniger Wagen
