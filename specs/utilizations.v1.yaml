@@ -5,7 +5,7 @@ info:
   version: '1.0'
 
 paths:
-  /utilization/{trainNum}:
+  /utilizations/{trainNum}:
     get:
       summary: Returns utilization for given train number
       tags:
@@ -28,7 +28,7 @@ paths:
         '404':
           description: Utilization not found
 
-  /utilization/{routeId}:
+  /utilizations/{routeId}:
     get:
       summary: Returns utilization for given route id
       tags:
