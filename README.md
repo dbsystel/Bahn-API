@@ -2,7 +2,7 @@
 
 Wir überlegen hier gemeinsam, wie eine optimale API für Mobilität aussehen würde und bauen diese dann auch Stück für Stück auf. Gemeinsam heißt, im gesamten Bahn-Konzern, unhabhängig der Organisationsstrukturen, aber auch übergreifend mit allen Interessierten aus der Commuinity.
 
-Wir freuen uns auf euere Push-Requests!
+Wir freuen uns auf euere Pull-Requests!
 
 Dazu sammeln wir unter anderem [Datenquellen](data-sources.md).
 
