@@ -10,9 +10,9 @@ servers:
 paths:
   /routes:
     $ref: "passenger-info.v1.yaml#/paths/~1routes"
-  /utilization/{trainNum}:
-    $ref: "utilization.yml#/paths/~1utilization~1{trainNum}"
-  /utilization/{routeId}:
-    $ref: "utilization.yml#/paths/~1utilization~1{routeId}"
+  /utilizations/{trainNum}:
+    $ref: "utilizations.yaml#/paths/~1utilizations~1{trainNum}"
+  /utilizations/{routeId}:
+    $ref: "utilizations.yaml#/paths/~1utilizations~1{routeId}"
   /malfunctions:
     $ref: "malfunctions.yaml#/paths/~/malfunctions"
