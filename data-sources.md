@@ -34,13 +34,20 @@ APIKeys haben hier nichts zu suchen.
   - https://github.com/trainline-eu/stations
   - https://github.com/juliuste/db-perrons
 - Fahrpläne, auch historisch: http://grahnert.de/fernbahn/datenbank/suche/
+- Routing
+  - GraphHopper: https://docs.graphhopper.com/#tag/Routing-API
+  - Here: https://developer.here.com/documentation/routing/dev_guide/topics/request-a-simple-route.html
 - Fotos von Bahnhöfen:
   - https://developer.deutschebahn.com/store/apis/info?name=Bahnhofsfotos&version=v1&provider=DBOpenData
-- Parkplätze an Bahnhöfen: https://developer.deutschebahn.com/store/apis/info?name=BahnPark&version=v1&provider=DBOpenData
+- Parkplätze
+  - an Bahnhöfen: https://developer.deutschebahn.com/store/apis/info?name=BahnPark&version=v1&provider=DBOpenData
+  - AIPark: https://developer.aipark.io/?version=v2
 - Betriebsstellen: https://developer.deutschebahn.com/store/apis/info?name=Betriebsstellen&version=v1&provider=DBOpenData
 - Reisezentren: https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData
 - Fahrstühle und Rolltreppen: https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData
-- Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
+- Weitere Mobilitätsangebote
+  - Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
+  - eScooter https://api-docs.tier-services.io/#introduction
 - Verspätungsdaten DB Cargo: https://developer.deutschebahn.com/store/apis/info?name=Cargo-Delay-Statistics&version=v1&provider=DBOpenData
 - Umwelt/Emissionen:
   - https://triptocarbon.xyz/
