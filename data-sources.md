@@ -33,6 +33,7 @@ APIKeys haben hier nichts zu suchen.
   - EVA-IDs und Location von Stationen: https://si.favendo.de/station-info/rest/api/search?searchTerm=Berlin%20Hbf
   - https://github.com/trainline-eu/stations
   - https://github.com/juliuste/db-perrons
+- Fahrpläne, auch historisch: http://grahnert.de/fernbahn/datenbank/suche/
 - Fotos von Bahnhöfen:
   - https://developer.deutschebahn.com/store/apis/info?name=Bahnhofsfotos&version=v1&provider=DBOpenData
 - Parkplätze an Bahnhöfen: https://developer.deutschebahn.com/store/apis/info?name=BahnPark&version=v1&provider=DBOpenData
