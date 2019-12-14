@@ -33,6 +33,7 @@ APIKeys haben hier nichts zu suchen.
   - EVA-IDs und Location von Stationen: https://si.favendo.de/station-info/rest/api/search?searchTerm=Berlin%20Hbf
   - https://github.com/trainline-eu/stations
   - https://github.com/juliuste/db-perrons
+  - https://github.com/juliuste/db-interchanges/
 - Fahrpläne, auch historisch: http://grahnert.de/fernbahn/datenbank/suche/
 - Routing
   - GraphHopper: https://docs.graphhopper.com/#tag/Routing-API
@@ -45,7 +46,6 @@ APIKeys haben hier nichts zu suchen.
 - Betriebsstellen: https://developer.deutschebahn.com/store/apis/info?name=Betriebsstellen&version=v1&provider=DBOpenData
 - Reisezentren: https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData
 - Fahrstühle und Rolltreppen: https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData
-https://github.com/juliuste/db-interchanges/
 - Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
 - Verspätungsdaten DB Cargo: https://developer.deutschebahn.com/store/apis/info?name=Cargo-Delay-Statistics&version=v1&provider=DBOpenData
 - Umwelt/Emissionen:
