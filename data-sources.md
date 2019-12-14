@@ -51,3 +51,9 @@ APIKeys haben hier nichts zu suchen.
 - Umwelt/Emissionen:
   - https://triptocarbon.xyz/
   - http://www.ecopassenger.org/bin/query.exe/en?L=vs_uic (aktuell keine API)
+- Korrelation von Verspätungsdaten aus unterschiedlichen Quellen
+  - https://github.com/derhuerst/find-hafas-leg-in-another-hafas
+- Redesign einer Bahn-App: 
+  - https://github.com/willi84/MEGA
+ 
+
