@@ -45,9 +45,8 @@ APIKeys haben hier nichts zu suchen.
 - Betriebsstellen: https://developer.deutschebahn.com/store/apis/info?name=Betriebsstellen&version=v1&provider=DBOpenData
 - Reisezentren: https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData
 - Fahrstühle und Rolltreppen: https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v2&provider=DBOpenData
-- Weitere Mobilitätsangebote
-  - Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
-  - eScooter https://api-docs.tier-services.io/#introduction
+https://github.com/juliuste/db-interchanges/
+- Flinkster Carsharing: https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData
 - Verspätungsdaten DB Cargo: https://developer.deutschebahn.com/store/apis/info?name=Cargo-Delay-Statistics&version=v1&provider=DBOpenData
 - Umwelt/Emissionen:
   - https://triptocarbon.xyz/
