@@ -7,7 +7,8 @@ und nicht immer klar ist, wann genau ich dort heraus komme.
 
 Auch auf der Rückfahrt ist nicht sicher, dass mich die Arbeit täglich zur genau gleichen Zeit los lässt.
 
-(Aus https://github.com/dbsystel/Bahn-API/issues/7)
+(Aus [Issue #7](https://github.com/dbsystel/Bahn-API/issues/7))
+
 Als Pendler möchte ich (regelmässig) Meldungen von Bahnverspätung / -ausfällen ab einer Stunde vor Abfahrt des Zuges über gewohnte Kanäle (WhatsApp, Telegram, & Co) via Bot Gruppen Push-Nachricht bekommen.
 
 Beispiel: Pendler (ca. 50 Personen pro Tag) von Müllheim (79379) mit dem 7:49er Richtung Basel Bad / SBB proaktiv zu informieren.
