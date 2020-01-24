@@ -6,6 +6,8 @@ Relevant ist auch die Auslastung der Verkehrsmittel, die bewirken kann, dass ich
 
 Für viele ist heute auch wichtig, wie der CO₂ Ausstoß auf dem Weg ist.
 
+## [Use cases](use-cases)
+
 ## Was sind Orte?
 
 - Adressen von Start und Ziel, Straße, PLZ, Ort
