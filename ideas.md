@@ -16,6 +16,7 @@ Für viele ist heute auch wichtig, wie der CO₂ Ausstoß auf dem Weg ist.
 - Taxistände
 - Car-Sharing-Stationen
 - Leih-Fahrrad-Stationen
+- Bahnübergänge
 
 ## Wie ist eine Route definiert?
 
@@ -29,3 +30,4 @@ Eine Route ist eine Liste von Orten, an denen z.B. das Verkehrsmittel gewechselt
 - Ausfall Klimaanlage / Bordrestaurant / ...
 - Türstörung
 - Zug fährt mit weniger Wagen
+- Ausfall von Lichtzeichen oder Schranken an einem Bahnübergang
