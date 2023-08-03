@@ -1,5 +1,7 @@
 # Bahn-API
 
+> :information_source: Dieses Repository ist auf einem Hackathon entstanden, wird aber nicht mehr fortgeführt oder produktiv verwendet.
+
 Wir überlegen hier gemeinsam, wie eine optimale API für Mobilität aussehen würde und bauen diese dann auch Stück für Stück auf. Gemeinsam heißt, im gesamten Bahn-Konzern, unhabhängig der Organisationsstrukturen, aber auch übergreifend mit allen Interessierten aus der Commuinity.
 
 Wir freuen uns auf euere Pull-Requests!
